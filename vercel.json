@@ -3,9 +3,6 @@
   "buildCommand": "npm run build:web",
   "outputDirectory": "dist",
   "framework": null,
-  "env": {
-    "EXPO_ROUTER_APP_ROOT": "app"
-  },
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
